@@ -1,0 +1,28 @@
+body{
+  color:#26284c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{color: #86bc91;}
+
+.navbar {
+    display: block;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .nav-item{margin-right: 35px}
+.navbar a{color: #26284c;}
+div#navbarSupportedContent {
+    border-top: 1px solid #26284c;
+}
+header{position: absolute;
+    z-index: 1;width: 100%;}
+#slider{background: #86bc91;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    padding-top: 135px;text-align: center;}
+
+ 
+
