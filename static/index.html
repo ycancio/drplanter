@@ -9,6 +9,7 @@
  
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
@@ -31,23 +32,25 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
+        <a class="nav-link" href="#">About Dr. Planter</a>
+      </li> 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Plant Sales</a>
+          <a class="dropdown-item" href="#">Plant Installation</a> 
+          <a class="dropdown-item" href="#">Plant Maintenance</a>
         </div>
       </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
     </ul> 
   </div>
 </nav>
@@ -78,15 +81,117 @@
 </div>
 
   <section id="content-main">
-    <div class="container">
-    <h1>Title Here</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iure, incidunt, in aspernatur error nostrum obcaecati velit doloremque praesentium soluta est. Atque esse expedita, dicta, possimus voluptate alias porro pariatur.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iure, incidunt, in aspernatur error nostrum obcaecati velit doloremque praesentium soluta est. Atque esse expedita, dicta, possimus voluptate alias porro pariatur.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iure, incidunt, in aspernatur error nostrum obcaecati velit doloremque praesentium soluta est. Atque esse expedita, dicta, possimus voluptate alias porro pariatur.</p>
+    <div id="home-content-drplanter" class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2>Learn Something New</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sed obcaecati voluptate incidunt amet maiores quasi assumenda veritatis mollitia praesentium.</p>
+          <a href="#" class="btn btn-primary">Ask the Dr!</a>
+        </div>
+        <div class="col-sm-8">
+          <img src="assets/img/h1.jpg" alt="Learn Something New" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <img src="assets/img/h2.jpg" alt="Services" class="img-fluid">
+        </div>
+        <div class="col-sm-4">
+          <h2>What we do for your space...</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sed obcaecati voluptate incidunt amet maiores quasi assumenda veritatis mollitia praesentium.</p>
+          <a href="#" class="btn btn-primary">Services</a>
+        </div> 
+      </div>
+    </div>
+
+    <div id="current_favs" class="container prod-list">
+      <h2 class="block_title">Current Favorites</h2>
+      <ul class="row">
+        <li class="col-sm-4">
+          <a href="#"><img class="img-fluid" src="assets/img/p1.jpg" alt=""></a>
+          <h4><a href="#">Product Name</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-primary">Shop all</a>
+        </li>
+        <li class="col-sm-4">
+          <a href="#"><img class="img-fluid" src="assets/img/p2.jpg" alt=""></a>
+          <h4><a href="#">Product Name</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-primary">Shop all</a>
+        </li>
+        <li class="col-sm-4">
+          <a href="#"><img class="img-fluid" src="assets/img/p3.jpg" alt=""></a>
+          <h4><a href="#">Product Name</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <a href="#" class="btn btn-primary">Shop all</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="contact-home-section">
+      <div class="container">
+        <h2>Reach out!</h2>
+        <p><a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contact the Dr.!</a></p>
+      </div>
     </div>
   </section>
 
-  <footer></footer>
+  <footer>
+    <div class="container">
+    <ul>
+      <li><img class="logo_footer" src="assets/img/FOOTER-LOGO.png" alt="Dr. Planter"></li>
+      <li>
+        <h5>Dr. Planter</h5>
+        <ul>
+          <li><a href="">About Dr. Planter</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Resources</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </li>
+      <li>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="">Plant Sales</a></li>
+          <li><a href="">Plant Installation</a></li>
+          <li><a href="">Plant Maintenance</a></li>
+        </ul>
+      </li>
+      <li>
+        <h5>Recources</h5>
+        <ul>
+          <li><a href="">Asq the Dr.</a></li>
+          <li><a href="">FAQ</a></li> 
+        </ul>
+      </li>
+      <li>
+        <h5>Inquiries</h5>
+        <ul>
+          <li><a href="">Contact Us</a></li> 
+        </ul>
+      </li>
+    </ul>
+    </div>
+    
+    <div class="last-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">FOLLOW US <a target="_blank" href="https://www.facebook.com/" title="Facebook">
+                <div class="social-icon facebook-icon"></div></a>
+      <a target="_blank" href="https://www.pinterest.com/" title="Pinterest">
+                <div class="social-icon pinterest-icon"></div></a>
+      <a target="_blank" href="https://twitter.com/" title="Twitter">
+                <div class="social-icon twitter-icon"></div></a>
+      <a target="_blank" href="https://www.instagram.com/" title="Instagram">
+                <div class="social-icon instagram-icon"></div></a></div>
+          <div class="col-sm-6 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> 5061 NW 72 ST, MIAMI, FL 33126 | <i class="fa fa-phone" aria-hidden="true"></i> 786.598.5848 <br><i class="fa fa-clock-o" aria-hidden="true"></i> M-F 9:00AM - 4:00PM | SAT. 9:00AM - 1:00PM</div>
+        </div>
+      </div>
+    </div>
+    <small class="copyright">
+      &copy; 2019 All Rights Reserved. Dr. Planter | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+    </small>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
