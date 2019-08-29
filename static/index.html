@@ -22,9 +22,10 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
+  
+<div class="container container_header">
+<header>
+<nav class="navbar navbar-light navbar-expand-lg">
   <a class="navbar-brand" href="#"><img src="assets/img/drplanter_logo.png" alt="Dr Planter"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -54,8 +55,10 @@
     </ul> 
   </div>
 </nav>
-    </div>
-  </header> 
+</header>
+</div>
+   
+<div class="container">
 
   <div id="slider" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -81,7 +84,7 @@
 </div>
 
   <section id="content-main">
-    <div id="home-content-drplanter" class="container">
+    <div id="home-content-drplanter">
       <div class="row">
         <div class="col-sm-4">
           <h2>Learn Something New</h2>
@@ -104,7 +107,7 @@
       </div>
     </div>
 
-    <div id="current_favs" class="container prod-list">
+    <div id="current_favs" class="prod-list">
       <h2 class="block_title">Current Favorites</h2>
       <ul class="row">
         <li class="col-sm-4">
@@ -127,22 +130,23 @@
         </li>
       </ul>
     </div>
-
+</div>
     <div id="contact-home-section">
       <div class="container">
         <h2>Reach out!</h2>
         <p><a href="#"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contact the Dr.!</a></p>
       </div>
     </div>
-  </section>
+</section>
 
   <footer>
     <div class="container">
-    <ul>
+    <ul id="accordion-footer">
       <li><img class="logo_footer" src="assets/img/FOOTER-LOGO.png" alt="Dr. Planter"></li>
       <li>
-        <h5>Dr. Planter</h5>
-        <ul>
+        <h5 class="d-lg-none"><a href="#drplanter-footer" data-toggle="collapse">Dr. Planter</a></h5>
+        <h5 class="d-none d-lg-block">Dr. Planter</h5>
+        <ul id="drplanter-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">About Dr. Planter</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Resources</a></li>
@@ -150,33 +154,36 @@
         </ul>
       </li>
       <li>
-        <h5>Services</h5>
-        <ul>
+        <h5 class="d-lg-none"><a href="#services-footer" data-toggle="collapse">Services</a></h5>
+        <h5 class="d-none d-lg-block">Services</h5>
+        <ul id="services-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">Plant Sales</a></li>
           <li><a href="">Plant Installation</a></li>
           <li><a href="">Plant Maintenance</a></li>
         </ul>
       </li>
       <li>
-        <h5>Recources</h5>
-        <ul>
+        <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Recources</a></h5>
+        <h5 class="d-none d-lg-block">Recources</h5>
+        <ul id="recources-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">Asq the Dr.</a></li>
           <li><a href="">FAQ</a></li> 
         </ul>
       </li>
       <li>
-        <h5>Inquiries</h5>
-        <ul>
+        <h5 class="d-lg-none"><a href="#inquiries-footer" data-toggle="collapse">Inquiries</a></h5>
+        <h5 class="d-none d-lg-block">Inquiries</h5>
+        <ul id="inquiries-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">Contact Us</a></li> 
         </ul>
       </li>
     </ul>
     </div>
-    
+
     <div class="last-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">FOLLOW US <a target="_blank" href="https://www.facebook.com/" title="Facebook">
+          <div class="col-sm-6 text-center text-lg-left pb-3 pb-md-0"><span class="d-none d-md-">FOLLOW US</span> <a target="_blank" href="https://www.facebook.com/" title="Facebook">
                 <div class="social-icon facebook-icon"></div></a>
       <a target="_blank" href="https://www.pinterest.com/" title="Pinterest">
                 <div class="social-icon pinterest-icon"></div></a>

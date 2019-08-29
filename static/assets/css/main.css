@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
 
 h2{font-size: 58px}
 h2.block_title{border-bottom: 2px solid #26284c;margin-bottom: 25px;padding-bottom: 5px;}
-a{color: #86bc91;}
+a, a:hover{color: #86bc91;text-decoration:none;}
 
 .navbar {
     display: block;
@@ -23,7 +23,7 @@ a{color: #86bc91;}
     font-weight: bold;
 }
 .navbar .nav-item{margin-right: 35px}
-.navbar a{color: #26284c;}
+.navbar a, .navbar-light .navbar-nav .nav-link{color: #26284c;}
 .btn-primary{background-color: #86bc91;
     border-color: #86bc91;
     border-radius: 0;
@@ -32,14 +32,13 @@ a{color: #86bc91;}
 div#navbarSupportedContent {
     border-top: 1px solid #26284c;
 }
-header{position: absolute; z-index: 1;width: 100%;}
-#slider{background: #86bc91;
-    top: 0;
+header{background-color: #86bc91}
+#slider{top: 0;
     width: 100%;
-    z-index: 0;
-    padding-top: 135px;text-align: center;}
+    z-index: 0; text-align: center;}
 
 #content-main{padding: 45px 0 0;}
+.carousel-item img{width: 100%;}
 #home-content-drplanter > .row{padding-bottom: 60px}
 .prod-list li {list-style: none; padding-bottom: 30px;}
 .prod-list li h4{padding: 20px 0 0; font-size: 32px; margin: 0;}
@@ -71,6 +70,7 @@ header{position: absolute; z-index: 1;width: 100%;}
 .social-icon.pinterest-icon {background-position: -10px -75px;}
 
 footer > .container ul{padding: 0;}
+
 footer > .container > ul > li { 
     width: 20%;
     float: left;
@@ -93,5 +93,25 @@ footer li{list-style: none;
     text-transform: uppercase;
     padding-bottom: 5px;}
 
+.navbar-toggler{float: right;margin-top: 15px;}
+
+@media(max-width: 991px){
+    footer > .container > ul > li{
+        float: none;width: 100%;
+    } 
+    footer > .container ul{text-align: center;}
+    footer li h5:after{margin-left: auto;margin-right: auto;}
+    footer li{font-size: 14px;padding-bottom: 8px;}
+}
+
+@media(max-width: 767px){
+    .last-footer{font-size: 11px;padding: 20px 0;}  
+    div#navbarSupportedContent{background: white;padding: 0px 15px;}
+    h2{font-size: 30px;}
+    #home-content-drplanter img { margin: 20px 0;}
+    #home-content-drplanter > .row {padding-bottom: 20px;}
+    #content-main{padding-top: 25px;}
+    .prod-list li h4{font-size: 26px;}
+}
  
 
