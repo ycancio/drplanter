@@ -44,6 +44,7 @@ header{background-color: #86bc91}
 .prod-list li h4{padding: 20px 0 0; font-size: 32px; margin: 0;}
 .prod-list li h4 a{color: #26284c;}
 .prod-list ul { padding: 0;}
+.prod-list li img { width: 100%;}
 
 #contact-home-section{
     background: url(../img/pika-396886.jpg) 0 0 no-repeat;
@@ -69,6 +70,13 @@ header{background-color: #86bc91}
 .social-icon.instagram-icon {background-position: -75px -10px;}
 .social-icon.pinterest-icon {background-position: -10px -75px;}
 
+.contact-form {
+    background: #fafafa;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.info-contact{font-size: 18px;}
+.info-contact a{color:#26284c;}
 footer > .container ul{padding: 0;}
 
 footer > .container > ul > li { 
@@ -94,6 +102,13 @@ footer li{list-style: none;
     padding-bottom: 5px;}
 
 .navbar-toggler{float: right;margin-top: 15px;}
+
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1240px;
+}
+}
 
 @media(max-width: 991px){
     footer > .container > ul > li{
