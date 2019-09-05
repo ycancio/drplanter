@@ -30,6 +30,7 @@ node_modules/
 
 wp-admin/
 index.php
+!static/index.php
 license.txt
 readme.html
 wp-activate.php
