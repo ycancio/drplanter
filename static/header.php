@@ -14,7 +14,10 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/main.css">
- 
+ <?php 
+    $page = $_SERVER['SCRIPT_NAME'];
+    $is_home = strpos($page, 'index.php') !== false?true:false;   
+  ?>
 </head>
 
 <body>
@@ -23,8 +26,9 @@
   <![endif]-->
 
   
-<div class="container container_header">
+<div class="<?php if ($is_home) echo 'container'; else echo 'container_header'; ?>">
 <header>
+  <?php if (!$is_home) echo '<div class="container">'; ?>
 <nav class="navbar navbar-light navbar-expand-lg">
   <a class="navbar-brand" href="index.php"><img src="assets/img/drplanter_logo.png" alt="Dr Planter"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +39,9 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="#">About Dr. Planter</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.php">Gallery</a>
       </li> 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,6 +62,7 @@
     </ul> 
   </div>
 </nav>
+ <?php if (!$is_home) echo '</div>'; ?>
 </header>
 </div>
 

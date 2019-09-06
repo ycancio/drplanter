@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 h2{font-size: 58px}
 h2.block_title{border-bottom: 2px solid #26284c;margin-bottom: 25px;padding-bottom: 5px;}
 a, a:hover{color: #86bc91;text-decoration:none;}
-
+.container_header {margin-bottom: 40px;box-shadow: 0 5px 10px #ddd;}
 .navbar {
     display: block;
     font-family: serif;
@@ -104,10 +104,12 @@ footer li{list-style: none;
 .navbar-toggler{float: right;margin-top: 15px;}
 
 
+
+
 @media (min-width: 1200px){
 .container {
     max-width: 1240px;
-}
+} 
 }
 
 @media(max-width: 991px){
