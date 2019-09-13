@@ -15,7 +15,7 @@
 			<li><b>Disease and pest management</b>, we’ll keep an eye for anything out of the ordinary and offer options for removal/replacement.</li>
 			<li><b>Party and Emergency visits</b>, should plants need extra primping or if emergency is needed, we’ll do our best to be there in under 24 hours.</li>
 		</ul>
-		<img src="assets/img/stock/plant-maintenance.jpg" alt="Plant Maintenance" class="img-fluid mb-4">
+		<img src="assets/img/plant-maintenance.jpg" alt="Plant Maintenance" class="img-fluid mb-4">
 	</div>
 
 	<div class="col-sm-5">
