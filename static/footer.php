@@ -15,7 +15,7 @@
         <h5 class="d-lg-none"><a href="#drplanter-footer" data-toggle="collapse">Dr. Planter</a></h5>
         <h5 class="d-none d-lg-block">Dr. Planter</h5>
         <ul id="drplanter-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
-          <li><a href="">About Dr. Planter</a></li>
+          <li><a href="about.php">About Dr. Planter</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Resources</a></li>
           <li><a href="">Contact</a></li>
@@ -27,12 +27,12 @@
         <ul id="services-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">Plant Sales</a></li>
           <li><a href="">Plant Installation</a></li>
-          <li><a href="">Plant Maintenance</a></li>
+          <li><a href="plant-maintenance.php">Plant Maintenance</a></li>
         </ul>
       </li>
       <li>
-        <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Recources</a></h5>
-        <h5 class="d-none d-lg-block">Recources</h5>
+        <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Resources</a></h5>
+        <h5 class="d-none d-lg-block">Resources</h5>
         <ul id="recources-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="">Asq the Dr.</a></li>
           <li><a href="">FAQ</a></li> 

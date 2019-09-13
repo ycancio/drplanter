@@ -5,7 +5,7 @@
 <div class="prod-list">
 	<ul class="row">
 		<?php 
-			$files = scandir('assets/img/stock/');//$files = glob('assets/img/stock/*.{jpg,png,gif}', GLOB_BRACE);
+			$files = scandir('assets/img/stock/');
 			foreach($files as $file) {
 				if($file != '.' && $file!='..')
 			  echo '<li class="col-sm-4">

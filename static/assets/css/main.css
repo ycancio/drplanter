@@ -7,6 +7,7 @@
 body{
   color:#26284c;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.8
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "Haboro", "Times New Roman", serif;
@@ -33,6 +34,22 @@ div#navbarSupportedContent {
     border-top: 1px solid #26284c;
 }
 header{background-color: #86bc91}
+
+/*
+body.sticky-header {
+  padding-top: 100px;
+}
+body.sticky-header header {
+  height: 60px;
+}
+body.sticky-header header .navbar-brand {
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+}
+*/
+
 #slider{top: 0;
     width: 100%;
     z-index: 0; text-align: center;}

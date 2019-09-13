@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
  
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">About Dr. Planter</a>
+        <a class="nav-link" href="about.php">About Dr. Planter</a>
       </li> 
       <li class="nav-item">
         <a class="nav-link" href="gallery.php">Gallery</a>
@@ -50,7 +50,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Plant Sales</a>
           <a class="dropdown-item" href="#">Plant Installation</a> 
-          <a class="dropdown-item" href="#">Plant Maintenance</a>
+          <a class="dropdown-item" href="plant-maintenance.php">Plant Maintenance</a>
         </div>
       </li> 
       <li class="nav-item">
