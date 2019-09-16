@@ -12,7 +12,10 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Haboro", "Times New Roman", serif;
 }
-
+h1 > small {
+    font-size: 0.35em;
+    display: block;
+}
 h2{font-size: 58px}
 h2.block_title{border-bottom: 2px solid #26284c;margin-bottom: 25px;padding-bottom: 5px;}
 a, a:hover{color: #86bc91;text-decoration:none;}
@@ -119,9 +122,21 @@ footer li{list-style: none;
     padding-bottom: 5px;}
 
 .navbar-toggler{float: right;margin-top: 15px;}
-
-
-
+.blog-list { padding: 0; list-style: none;}
+.blog-list li img {border-radius: 10px;}
+.blog-list li p {font-size: 14px;}
+.blog-list li p.category { text-transform: uppercase;
+    margin: 5px 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;}
+.blog-list li h4 a{color: #26284c;}
+.blog-list li p.category a {color: #666;}
+.more_q {
+    background: #f2f2f4;
+    padding: 50px 50px 40px;
+    margin-bottom: 40px;
+}
 
 @media (min-width: 1200px){
 .container {

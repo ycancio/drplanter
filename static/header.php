@@ -20,7 +20,7 @@
   ?>
 </head>
 
-<body>
+<body class="<?php if ($is_home) echo 'home'; else echo 'page'; ?>">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -48,13 +48,18 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Plant Sales</a>
-          <a class="dropdown-item" href="#">Plant Installation</a> 
+          <a class="dropdown-item" href="plant-sales.php">Plant Sales</a>
+          <a class="dropdown-item" href="plant-installation.php">Plant Installation</a> 
           <a class="dropdown-item" href="plant-maintenance.php">Plant Maintenance</a>
         </div>
       </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resources</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="ask-dr.php">Ask the Dr.</a>
+          <a class="dropdown-item" href="faq.php">FAQ</a> 
+          <a class="dropdown-item" href="dr-notes.php">Dr. Notes</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.php">Contact</a>

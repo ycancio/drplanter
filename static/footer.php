@@ -25,8 +25,8 @@
         <h5 class="d-lg-none"><a href="#services-footer" data-toggle="collapse">Services</a></h5>
         <h5 class="d-none d-lg-block">Services</h5>
         <ul id="services-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
-          <li><a href="">Plant Sales</a></li>
-          <li><a href="">Plant Installation</a></li>
+          <li><a href="plant-sales.php">Plant Sales</a></li>
+          <li><a href="plant-installation.php">Plant Installation</a></li>
           <li><a href="plant-maintenance.php">Plant Maintenance</a></li>
         </ul>
       </li>
