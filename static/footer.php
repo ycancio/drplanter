@@ -34,7 +34,7 @@
         <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Resources</a></h5>
         <h5 class="d-none d-lg-block">Resources</h5>
         <ul id="recources-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
-          <li><a href="">Asq the Dr.</a></li>
+          <li><a href="">Ask the Dr.</a></li>
           <li><a href="">FAQ</a></li> 
         </ul>
       </li>
