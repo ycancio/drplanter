@@ -4,7 +4,7 @@
 	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14366.203976784813!2d-80.3104976!3d25.8183832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca4d0bdad907c4e8!2sSOUTH%20FLORALS%20GROUP%2C%20LLC!5e0!3m2!1sen!2sus!4v1567697778346!5m2!1sen!2sus" width="100%" height="250" frameborder="0" style="margin-bottom:40px;border:0;" allowfullscreen=""></iframe>
 	<div class="row">
 		<div class="col-sm-6">
-			<div class="info-contact">
+			<div class="lead">
 				<p>Ready for your prescription, or have a few more questions? Feel free to give us a call, email, or fill out the form and we will get back to you shortly.</p>
 				<br>
 				<p><i class="fa fa-map-marker" aria-hidden="true"></i> 6964 NW 50th St, Miami Florida 33166</p>
