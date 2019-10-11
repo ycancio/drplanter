@@ -1,21 +1,21 @@
 <?php include 'header.php'; ?>
-
+<img src="assets/img/plant_maintenance_banner.jpg" alt="Plant Maintenance" class="img-fluid">
 <h1 class="display-4">Plant Maintenance</h1>
 
 <div class="row">
 	
 	<div class="col-sm-7">
-		<p>Dr.Planter won’t leave your plants in the dark. Depending on the plants' needs, our plant experts come by and provide maintenance on a regularly scheduled day weekly or bi-weekly. We're here to guarantee your plants will have a long and successful life.</p>
+		<p class="lead">Dr.Planter won’t leave your plants in the dark. Depending on the plants' needs, our plant experts come by and provide maintenance on a regularly scheduled day weekly or bi-weekly. We're here to guarantee your plants will have a long and successful life.</p>
 
-		<p>Our maintenance plans include:</p>
-		<ul>
+		<p class="lead">Our maintenance plans include:</p>
+		<ul class="lead">
 			<li><b>Watering</b></li>
 			<li><b>Pruning, cleaning, and detailed plant care.</b></li>
 			<li><b>Fertilization</b>, choice of organic or chemical fertilizers that are safe for indoor use.</li>
 			<li><b>Disease and pest management</b>, we’ll keep an eye for anything out of the ordinary and offer options for removal/replacement.</li>
 			<li><b>Party and Emergency visits</b>, should plants need extra primping or if emergency is needed, we’ll do our best to be there in under 24 hours.</li>
 		</ul>
-		<img src="assets/img/plant-maintenance.jpg" alt="Plant Maintenance" class="img-fluid mb-4">
+		
 	</div>
 
 	<div class="col-sm-5">

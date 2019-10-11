@@ -16,8 +16,7 @@
         <h5 class="d-none d-lg-block">Dr. Planter</h5>
         <ul id="drplanter-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="about.php">About Dr. Planter</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Resources</a></li>
+          <li><a href="">Faq</a></li>
           <li><a href="">Contact</a></li>
         </ul>
       </li>
@@ -31,18 +30,10 @@
         </ul>
       </li>
       <li>
-        <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Resources</a></h5>
-        <h5 class="d-none d-lg-block">Resources</h5>
+        <h5 class="d-lg-none"><a href="#recources-footer" data-toggle="collapse">Gallery</a></h5>
+        <h5 class="d-none d-lg-block">Gallery</h5>
         <ul id="recources-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
-          <li><a href="">Ask the Dr.</a></li>
-          <li><a href="">FAQ</a></li> 
-        </ul>
-      </li>
-      <li>
-        <h5 class="d-lg-none"><a href="#inquiries-footer" data-toggle="collapse">Inquiries</a></h5>
-        <h5 class="d-none d-lg-block">Inquiries</h5>
-        <ul id="inquiries-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
-          <li><a href="">Contact Us</a></li> 
+          <li><a href="gallery.php">Fresh Ideas</a></li>
         </ul>
       </li>
     </ul>

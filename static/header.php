@@ -52,14 +52,6 @@
           <a class="dropdown-item" href="plant-installation.php">Plant Installation</a> 
           <a class="dropdown-item" href="plant-maintenance.php">Plant Maintenance</a>
         </div>
-      </li> 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="ask-dr.php">Ask the Dr.</a>
-          <a class="dropdown-item" href="faq.php">FAQ</a> 
-          <a class="dropdown-item" href="dr-notes.php">Dr. Notes</a>
-        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.php">Contact</a>

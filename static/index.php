@@ -28,12 +28,12 @@
     <div id="home-content-drplanter">
       <div class="row">
         <div class="col-sm-4">
-          <h2>Learn Something New</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sed obcaecati voluptate incidunt amet maiores quasi assumenda veritatis mollitia praesentium.</p>
+          <h2>Find the perfect plant</h2>
+          <p>No matter the conditions (low light, full light, or anywhere inbetween), our Doctors will be able to provide the perfect prescription for your space. </p>
           <a href="#" class="btn btn-primary">Ask the Dr!</a>
         </div>
         <div class="col-sm-8">
-          <img src="assets/img/h1.jpg" alt="Learn Something New" class="img-fluid">
+          <img src="assets/img/h1.jpg" alt="Find the perfect plant" class="img-fluid">
         </div>
       </div>
       <div class="row">
@@ -42,7 +42,7 @@
         </div>
         <div class="col-sm-4">
           <h2>What we do for your space...</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime sed obcaecati voluptate incidunt amet maiores quasi assumenda veritatis mollitia praesentium.</p>
+          <p>We know how important it is to create a lasting impression for any customer, client, and most importantly, employees - and plants are the best way to do just that. Learn more about all of our plant services.</p>
           <a href="#" class="btn btn-primary">Services</a>
         </div> 
       </div>
