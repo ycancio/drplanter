@@ -43,15 +43,11 @@
     <div class="last-footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 text-center text-lg-left pb-3 pb-md-0"><span class="d-none d-md-">FOLLOW US</span> <a target="_blank" href="https://www.facebook.com/" title="Facebook">
-                <div class="social-icon facebook-icon"></div></a>
-      <a target="_blank" href="https://www.pinterest.com/" title="Pinterest">
-                <div class="social-icon pinterest-icon"></div></a>
-      <a target="_blank" href="https://twitter.com/" title="Twitter">
-                <div class="social-icon twitter-icon"></div></a>
-      <a target="_blank" href="https://www.instagram.com/" title="Instagram">
+          <div class="col-sm-6 text-center text-lg-left pb-3 pb-md-0"><span class="d-none d-md-">FOLLOW US</span> <a target="_blank" href="https://www.facebook.com/doctorplanter/" title="Facebook">
+                <div class="social-icon facebook-icon"></div></a> 
+      <a target="_blank" href="https://www.instagram.com/doctorplanter" title="Instagram">
                 <div class="social-icon instagram-icon"></div></a></div>
-          <div class="col-sm-6 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> 6966 NW 50TH ST, MIAMI, FL 33166 | <i class="fa fa-phone" aria-hidden="true"></i> 786.598.5848 <br><i class="fa fa-clock-o" aria-hidden="true"></i> M-F 9:00AM - 4:00PM | SAT. 9:00AM - 1:00PM</div>
+          <div class="col-sm-6 text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> 6964 NW 50TH ST, MIAMI FLORIDA 33166 | <i class="fa fa-phone" aria-hidden="true"></i> 305.922.3813 <br><i class="fa fa-clock-o" aria-hidden="true"></i> M-F 9:00AM - 4:00PM | SAT. 9:00AM - 1:00PM</div>
         </div>
       </div>
     </div>
