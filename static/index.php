@@ -35,20 +35,14 @@
         <li class="col-sm-4">
           <a href="#"><img class="img-fluid" src="assets/img/p2.jpg" alt=""></a>
           <h4><a href="#">Your Home</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Shop all</a>
         </li>
         <li class="col-sm-4">
           <a href="#"><img class="img-fluid" src="assets/img/p1.jpg" alt=""></a>
           <h4><a href="#">Your Business</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Shop all</a>
         </li>
         <li class="col-sm-4">
           <a href="#"><img class="img-fluid" src="assets/img/p3.jpg" alt=""></a>
           <h4><a href="#">Your Office</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Shop all</a>
         </li>
       </ul>
     </div>
