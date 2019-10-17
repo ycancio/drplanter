@@ -17,7 +17,7 @@
         <ul id="drplanter-footer" class="collapse d-lg-block" data-parent="#accordion-footer">
           <li><a href="about.php">About Dr. Planter</a></li>
           <li><a href="dr-notes.php">Dr. "Notes"</a></li>
-          <li><a href="">Faq</a></li>
+          <li><a href="faq.php">Faq</a></li>
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </li>
