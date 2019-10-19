@@ -318,6 +318,11 @@ footer li {
     margin-bottom: 40px;
 }
 
+.installations-list li{
+    width: 50%;
+    float: left;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1240px;
