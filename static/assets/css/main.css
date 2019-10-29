@@ -318,16 +318,18 @@ footer li {
     margin-bottom: 40px;
 }
 
-.installations-list li{
-    width: 50%;
-    float: left;
+.installations-list {
+    margin-top: 35px;
 }
+
+
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1240px;
     }
 }
+
 
 @media(max-width: 991px) {
     footer>.container>ul>li {
@@ -347,6 +349,13 @@ footer li {
     footer li {
         font-size: 14px;
         padding-bottom: 8px;
+    }
+}
+
+@media (min-width:768px){
+    .installations-list li{
+        width: 50%;
+        float: left;
     }
 }
 
