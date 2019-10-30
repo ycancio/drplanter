@@ -6,6 +6,10 @@
 <div class="col-lg-7">
 	<h1 class="display-4">Plant Installations</h1>
 	<p class="lead">We know how important it is to create a lasting impression for any customer, client, and most importantly, employees - and plants are the best way to do just that. Spicing up interior spaces by creating grand entryways, adding life to open spaces, and freshening up creative work spaces are just a few ideas to accomplish that. And from creating a cohesive landscape of a new mall, to adding a fresh plants to a retail space to show a unique style, or even floral bud vases to add color to tables, we can bring any retail space to life!</p> 
+	<br>
+	<p class="text-center">
+		<a href="tel:3059223813" class="btn-primary">Call Now</a>
+	</p>
 </div>
 	
 <div class="col-lg-5">
@@ -15,7 +19,7 @@
 
 <div class="col-lg-5">
 	<br>
-	<img src="assets/img/plant_installations_left.png" class="img-fluid" alt="">
+	<img src="assets/img/plant_installations_left.png" class="img-fluid d-none d-lg-block d-xl-block" alt="">
 </div>
 
 <div class="col-lg-7"> 
