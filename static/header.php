@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/main.css">
  <?php 
+    error_reporting(E_ALL ^ E_NOTICE);
     $page = $_SERVER['SCRIPT_NAME'];
     $is_home = strpos($page, 'index.php') !== false?true:false;   
   ?>

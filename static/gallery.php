@@ -5,12 +5,14 @@
 <div class="prod-list">
 	<ul class="row">
 		<?php 
-			$files = scandir('assets/img/stock/');
+			$files = scandir('assets/img/gallery/');
 			foreach($files as $file) {
+				$fullname = str_replace(".jpg", "", $file);
+				$name = explode('(',$fullname)[0];
+				$desc = explode('(',$fullname)[1];
 				if($file != '.' && $file!='..')
-			  echo '<li class="col-sm-4">
-          			 <a href="#"><img class="img-fluid lazy" src="assets/img/stock/'.$file.'" alt=""></a><h4><a href="#">Product Name</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></li>';
+			  echo '<li class="col-12 col-sm-6 col-lg-4 text-center">
+          			 <img class="img-fluid lazy" src="assets/img/gallery/'.$file.'"><h4>'.$name.'</h4><p>('.$desc.'</p></li>';
 			}
 		 ?>
         
