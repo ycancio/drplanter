@@ -120,9 +120,17 @@ add_action( 'widgets_init', 'drplanter_widgets_init' );
  * Enqueue scripts and styles.
  */
 function drplanter_scripts() {
-	wp_enqueue_style( 'drplanter-style', get_stylesheet_uri() );
+	//wp_enqueue_style( 'drplanter-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() .'/assets/bootstrap/css/bootstrap.min.css' );
+	wp_enqueue_style( 'normalize-styles', get_template_directory_uri() .'/assets/css/normalize.css' );
+	wp_enqueue_style( 'main-styles', get_template_directory_uri() .'/assets/css/main.css' );
+	wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' );
 
-	wp_enqueue_script( 'drplanter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'drplanter-jquery', 'https://code.jquery.com/jquery-3.4.1.min.js');
+
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js', array(), '20151215', true );
+	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/assets/js/main.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'drplanter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

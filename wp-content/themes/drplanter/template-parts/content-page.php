@@ -10,9 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+	<div class="entry-header">
+		<?php the_title( '<h1 class="entry-title display-4">', '</h1>' ); ?>
+	</div><!-- .entry-header -->
 
 	<?php drplanter_post_thumbnail(); ?>
 

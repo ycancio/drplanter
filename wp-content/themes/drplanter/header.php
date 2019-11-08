@@ -21,38 +21,43 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'drplanter' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$drplanter_description = get_bloginfo( 'description', 'display' );
-			if ( $drplanter_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $drplanter_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'drplanter' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+<div class="<?php if (is_front_page()) echo 'container'; else echo 'container_header'; ?>">
+<header>
+  <?php if (!is_front_page()) echo '<div class="container">'; ?>
+<nav class="navbar navbar-light navbar-expand-lg">
+  <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri().'/assets/img/drplanter_logo.png';?>" alt="Dr Planter"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<div id="content" class="site-content">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo get_page_link(41); ?>">About Dr. Planter</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="gallery">Gallery</a>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="plant-sales">Plant Sales</a>
+          <a class="dropdown-item" href="plant-installation">Plant Installation</a> 
+          <a class="dropdown-item" href="plant-maintenance">Plant Maintenance</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact">Contact</a>
+      </li>
+    </ul> 
+  </div>
+</nav>
+ <?php if (!is_front_page()) echo '</div>'; ?>
+</header>
+</div>
+
+<div id="content" class="container">
