@@ -62,7 +62,7 @@ if ( ! function_exists( 'drplanter_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'drplanter' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'drplanter' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
@@ -96,7 +96,7 @@ if ( ! function_exists( 'drplanter_entry_footer' ) ) :
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Edit <span class="screen-reader-text">%s</span>', 'drplanter' ),
+					__( 'Edit', 'drplanter' ),
 					array(
 						'span' => array(
 							'class' => array(),

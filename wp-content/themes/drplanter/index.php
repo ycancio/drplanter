@@ -23,12 +23,16 @@ get_header();
 
 			if ( is_home() && ! is_front_page() ) :
 				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+					<h1 class="page-title screen-reader-text display-4 text-center">
+						<?php single_post_title(); ?>
+						<br>
+						<small>Dr.Planter's notes cover all the plant care<br>topics you need, scroll and learn about the plant life!</small>
+					</h1>
+					<div class="posts">
 				<?php
 			endif;
 
+			
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
@@ -50,7 +54,7 @@ get_header();
 
 		endif;
 		?>
-
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

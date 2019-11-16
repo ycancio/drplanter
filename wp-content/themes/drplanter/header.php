@@ -33,28 +33,15 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo get_page_link(41); ?>">About Dr. Planter</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="gallery">Gallery</a>
-      </li> 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="plant-sales">Plant Sales</a>
-          <a class="dropdown-item" href="plant-installation">Plant Installation</a> 
-          <a class="dropdown-item" href="plant-maintenance">Plant Maintenance</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact">Contact</a>
-      </li>
-    </ul> 
-  </div>
+  <?php 
+      wp_nav_menu(array(
+        'theme_location'  => 'menu-1',
+        'container'       => 'ul',
+        'menu_class'      => 'navbar-nav mr-auto'
+      ));
+  ?>   
+  </div> 
+  
 </nav>
  <?php if (!is_front_page()) echo '</div>'; ?>
 </header>

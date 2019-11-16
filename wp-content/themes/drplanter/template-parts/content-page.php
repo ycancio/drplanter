@@ -11,10 +11,10 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-header">
+		<?php drplanter_post_thumbnail(); ?>
 		<?php the_title( '<h1 class="entry-title display-4">', '</h1>' ); ?>
 	</div><!-- .entry-header -->
 
-	<?php drplanter_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php

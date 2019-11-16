@@ -54,7 +54,8 @@ a:hover {
     font-weight: bold;
 }
 
-.navbar .nav-item {
+.navbar .nav-item, 
+.navbar li.menu-item {
     margin-right: 35px
 }
 
@@ -324,7 +325,109 @@ footer li {
     margin-top: 35px;
 }
 
+.contact-form textarea {
+    height: 60px;
+}
 
+.page-id-45 h1,
+.page-id-63 h1.entry-title {
+    display: none;
+}
+
+.menu-item > a {
+    padding: .5rem;
+    display: block;
+}
+.menu-item.menu-item-has-children {
+    position: relative;
+}
+.menu-item.menu-item-has-children > a::after
+{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.navbar ul.sub-menu li {margin: 0;}
+ul.sub-menu a
+{
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+div.wpcf7 input[type="file"] {
+    height: 43px;
+}
+
+h2.comments-title {
+    font-size: 2rem;
+}
+
+.entry-title a {
+    color: #26284c;
+}
+
+.entry-meta {
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.entry-meta a {
+    color: #666;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body.blog article,
+body.archive article {
+    width: 33.33333%;
+    padding: 0 15px 25px;
+}
+
+nav.navigation.post-navigation {display: none;}
+span.edit-link {
+    padding-left: 25px;
+}
+
+span.edit-link:before {content: '\f044';font-family: FontAwesome;}
 
 @media (min-width: 1200px) {
     .container {
@@ -332,6 +435,9 @@ footer li {
     }
 }
 
+@media (max-width:1199px) {
+    h2 {font-size: 40px}
+}
 
 @media(max-width: 991px) {
     footer>.container>ul>li {
@@ -351,6 +457,14 @@ footer li {
     footer li {
         font-size: 14px;
         padding-bottom: 8px;
+    }
+
+    .prod-list li h4 {
+        font-size: 26px;
+    }
+
+    #home-content-drplanter img {
+        margin: 20px 0;
     }
 }
 
@@ -376,9 +490,7 @@ footer li {
         font-size: 30px;
     }
 
-    #home-content-drplanter img {
-        margin: 20px 0;
-    }
+    
 
     #home-content-drplanter>.row {
         padding-bottom: 20px;

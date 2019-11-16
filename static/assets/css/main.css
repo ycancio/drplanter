@@ -322,6 +322,10 @@ footer li {
     margin-top: 35px;
 }
 
+.contact-form textarea {
+    height: 60px;
+}
+
 
 
 @media (min-width: 1200px) {

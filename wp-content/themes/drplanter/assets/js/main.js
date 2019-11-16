@@ -7,5 +7,11 @@ $(function(){
       $("body").removeClass("sticky-header");
     }//if-else
   });//win func.
-});//ready func.
+
+  $('.menu-item.menu-item-has-children > a').click(function(e){
+    e.preventDefault();
+    $(this).parent().find('.sub-menu').toggle();
+  });
+
+});
 
