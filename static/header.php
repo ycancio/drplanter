@@ -51,7 +51,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="plant-sales.php">Plant Sales</a>
           <a class="dropdown-item" href="plant-installation.php">Plant Installation</a> 
-          <a class="dropdown-item" href="plant-maintenance.php">Plant Maintenance</a>
+          <a class="dropdown-item" href="plant-maintenance.php">Plant Maintenance</a>          
         </div>
       </li>
       <li class="nav-item">

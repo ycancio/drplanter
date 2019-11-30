@@ -18,7 +18,7 @@
           <li><a href="about.php">About Dr. Planter</a></li>
           <li><a href="dr-notes.php">Dr. "Notes"</a></li>
           <li><a href="faq.php">Faq</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>          
         </ul>
       </li>
       <li>
