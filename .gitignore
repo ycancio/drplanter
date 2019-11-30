@@ -48,4 +48,5 @@ xmlrpc.php
 wp-config-sample.php
 wp-cron.php
 wp-config.php
+.htaccess
 
