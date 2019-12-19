@@ -65,7 +65,7 @@
       </div>
     </div>
     <small class="copyright">
-      &copy; 2019 All Rights Reserved. Dr. Planter | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+      &copy; 2019 All Rights Reserved. Dr. Planter | <a href="<?php echo site_url(); ?>/privacy-policy">Privacy Policy</a> | <a href="<?php echo site_url(); ?>/terms-conditions">Terms & Conditions</a>
     </small>
   </footer>
 </div><!-- #page -->
